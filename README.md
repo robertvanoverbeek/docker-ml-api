@@ -1,4 +1,4 @@
-# docker-example-windows
+# docker-example
 
 This repository explains:
 
@@ -72,15 +72,9 @@ As explained on:
 
 https://docs.docker.com/docker-for-windows/install/
 
-Docker for windows requires amongst others that you run Windows 10 64bit: Pro, Enterprise or Education. That's because Docker Desktop for Windows requires Microsoft Hyper-V to run. At the date of writing, the Gradient laptops run the Home edition of Windows 10. Previously there was a work around, via the use of toolbox (https://docs.docker.com/toolbox/overview/). However, this no longer works correctly. Although it is possible to run Docker itself (build images and run containers), you will run into problems when testing, e.g. with port exposure, something we will do in this exercise.
+Docker for windows requires amongst others that you run Windows 10 64bit: Pro, Enterprise or Education. That's because Docker Desktop for Windows requires Microsoft Hyper-V to run. Previously there was a work around, via the use of toolbox (https://docs.docker.com/toolbox/overview/). However, this no longer works correctly. Although it is possible to run Docker itself (build images and run containers), you will run into problems when testing, e.g. with port exposure, something we will do in this exercise.
 
-The best way to proceed is first to upgrade to a pro version, either via 'Start > Windows Update' (price approx. $150), or through Ebay for less than $10 (make sure the product has the possibility to 'upgrade' using a key and not only a complete clean install). For instance I used:
-
-https://www.ebay.nl/itm/264175021542?ul_noapp=true
-
-Side comment:
-
-If you happen to have installed the Docker toolbox prior to installing the latest Docker version that requires the Windows pro version, you might not be able to run Docker (e.g. type docker version in the cmd). In that case remove the Docker_* items from 'system environments' on your machine and reinstall Docker. Instead make sure that the path C:\Program Files\Docker\Docker\resources\bin has been added as path to system variables on your machine. With the latter you will be able to use Docker from the command prompt.
+The best way to proceed is first to upgrade to a pro version, e.g. via 'Start > Windows Update' (price approx. $150).
 
 #### 2.2. Installation instructions
 Create a Docker account as explained on:
