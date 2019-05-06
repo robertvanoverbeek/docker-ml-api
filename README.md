@@ -72,9 +72,9 @@ As explained on:
 
 https://docs.docker.com/docker-for-windows/install/
 
-Docker for windows requires amongst others that you run Windows 10 64bit: Pro, Enterprise or Education. That's because Docker Desktop for Windows requires Microsoft Hyper-V to run. Previously there was a work around, via the use of toolbox (https://docs.docker.com/toolbox/overview/). However, this no longer works correctly. Although it is possible to run Docker itself (build images and run containers), you will run into problems when testing, e.g. with port exposure, something we will do in this exercise.
+Docker for windows requires amongst others that you run Windows 10 64bit: Pro, Enterprise or Education. That's because Docker Desktop for Windows requires Microsoft Hyper-V to run. Previously there was a work around for Windows home edition, via the use of toolbox (https://docs.docker.com/toolbox/overview/), but this no longer works correctly. Although it is possible to run Docker itself (build images and run containers), you will run into problems when testing, e.g. with port exposure, something we will do in this exercise.
 
-The best way to proceed is first to upgrade to a pro version, e.g. via 'Start > Windows Update' (price approx. $150).
+If you have Windows Home edition, it is best to first upgrade to a pro version, e.g. via 'Start > Windows Update' (price approx. $150).
 
 #### 2.2. Installation instructions
 Create a Docker account as explained on:
