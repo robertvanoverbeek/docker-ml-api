@@ -385,7 +385,7 @@ kubectl delete service diabetes-api-http
 
 Note, if you run:
 ```
-get services
+kubectl get services
 ```
 
 You should still see the kubernetes cluster mentioned, something like this:
