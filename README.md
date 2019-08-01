@@ -1,4 +1,4 @@
-# docker-example
+# Running a Dockerized model on a Google kubernetes cluster
 
 This repository explains:
 
